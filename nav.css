@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@1,700&display=swap');
+
+body{
+    background-image: url("tea.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.name {
+
+    float: left;
+    display: inline-block;
+    margin-top: 16px;
+ }  
+
+#main {
+     
+    text-align: right;
+    border: 2px solid rgb(124, 119, 51);
+    background-color:rgb(124, 97, 7);
+ }
+
+#main ul li{
+    list-style: none;
+    display: inline;
+}
+
+#main li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.6em;
+    margin: 0.5em;
+}
+
+
+#main li a:hover {
+       
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 1.6em;
+    margin: 0.5em;
+    border-bottom: 2px solid #0f0e01;
+}
+
+.content-div {
+    color: #220606;
+    font-family: Sans-serif; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.content-div h4{
+
+    margin-top: 300px;
+    font-size: 50px;
+    font-family: 'Andika New Basic', sans-serif;
+    padding: 15px 44px;
+}
+
+
+button {
+    display: flex;
+    height:50px;
+    width:200px;
+    background-color:#220606;
+    color: white;
+    margin: auto;
+    font-size: 19px;
+    padding: 15px 44px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+h4{
+    animation: left_to_right 3s ease;
+  
+}
+
+.button {
+    animation: right_to_center 3s ease;
+}
+
+@keyframes right_to_center {
+    from {
+      margin-left: 50%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+
+@keyframes left_to_right {
+    from {
+      margin-right: -50%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+  
